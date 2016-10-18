@@ -4,11 +4,11 @@
 
     <groupId>com.example</groupId>
     <artifactId>mvnScalaTemplate</artifactId>
-    <version>1.0</version>
+    <version>0.1-Snapshot</version>
 
 <properties>
   <!--Language Level-->
-  <scala.version>2.11.7</scala.version>
+  <scala.version>2.11.8</scala.version>
   <!--Testing Dependencies-->
   <junit.version>4.11</junit.version>
 </properties>
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.10.5</version>
+	    <version>${scala.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
